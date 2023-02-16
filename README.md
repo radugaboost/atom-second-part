@@ -6,7 +6,7 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plug
 $ docker-compose build
 $ docker-compose up
 
-#После этого пройти по этой ссылке
+# После этого пройти по этой ссылке
 $ http://localhost:9000/
 $ user: admin
 $ password: admin
