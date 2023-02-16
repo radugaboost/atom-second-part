@@ -1,15 +1,20 @@
 # Как установить
 $ sudo apt-get update
+
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 # Как запустить
 $ docker-compose build
+
 $ docker-compose up
 
 # После этого пройти по этой ссылке
 $ http://localhost:9000/
+
 $ user: admin
+
 $ password: admin
+
 $ http://localhost:9000/d/KvPliOJVk/atom?orgId=1
 
 # .env 
