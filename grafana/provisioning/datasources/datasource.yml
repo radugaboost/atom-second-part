@@ -1,0 +1,21 @@
+apiVersion: 1
+
+datasources:
+
+- name: mydata
+  type: postgres
+  access: proxy
+  orgId: 1
+  url: host.docker.internal:5433
+  user: postgres
+  database: greesa
+  allowUiUpdates: true
+  isDefault: true
+  jsonData:
+    sslmode: 'disable'
+    postgresVersion: 1200
+    timescaledb: false
+  secureJsonData:
+    password: "postgres"
+  version: 1
+  editable: true
